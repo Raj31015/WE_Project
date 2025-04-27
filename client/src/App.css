@@ -1,0 +1,42 @@
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.card-header {
+  padding: 1rem 1.25rem;
+}
+
+.table th {
+  font-weight: 600;
+  color: #495057;
+}
+
+.btn-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.btn-icon svg {
+  margin-right: 0.25rem;
+}
+
+.display-4 {
+  font-weight: 600;
+}
+
+@media (max-width: 767.98px) {
+  .table-responsive {
+    overflow-x: auto;
+  }
+} 

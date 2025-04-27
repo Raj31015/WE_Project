@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+build/
+out/
+
+# system files
+.DS_Store
+Thumbs.db
+
+
+
+# IDE settings
+.vscode/
+.idea/
+
+# logs
+*.log
+
+# testing
+coverage/
